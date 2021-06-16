@@ -28,14 +28,14 @@ class _LocationScreenState extends State<LocationScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  ElevatedButton(
+                  FlatButton(
                     onPressed: () {},
                     child: Icon(
                       Icons.near_me,
                       size: 50.0,
                     ),
                   ),
-                  ElevatedButton(
+                  FlatButton(
                     onPressed: () {},
                     child: Icon(
                       Icons.location_city,
@@ -74,8 +74,3 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
-
-//  double temp = jsonDecode(data)['main']['temp'];
-//       //or
-//       int condition = decodedData['weather'][0]['id'];
-//       String cityName = decodedData['name'];
